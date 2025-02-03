@@ -1,6 +1,6 @@
 import azure.functions as func
 import logging
-import azure.cosmos.cosmos_client as cosmos_client
+import cosmos_client from  azure.cosmos
 
 app = func.FunctionApp(http_auth_level=func.AuthLevel.FUNCTION)
 
