@@ -1,5 +1,5 @@
-from azure.cosmos import CosmosClient
 import azure.functions as func
+from azure.cosmos import CosmosClient
 import logging
 
 
