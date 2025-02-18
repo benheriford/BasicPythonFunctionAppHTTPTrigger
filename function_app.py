@@ -1,6 +1,6 @@
 import azure.functions as func
 import logging
-import azure.cosmos
+from flask import Flask
 
 
 app = func.FunctionApp(http_auth_level=func.AuthLevel.FUNCTION)
