@@ -3,7 +3,6 @@
 # More info on Python, GitHub Actions, and Azure Functions: https://aka.ms/python-webapps-actions
 
 name: Build and deploy Python project to Azure Function App - 2501170040010631test6
-
 on:
   push:
     branches:
@@ -80,4 +79,6 @@ jobs:
           app-name: '2501170040010631test6'
           slot-name: 'Production'
           package: ${{ env.AZURE_FUNCTIONAPP_PACKAGE_PATH }}
+          scm-do-build-during-deployment: true # <--- ADDED THIS LINE
+          enable-oryx-build: true              # <--- ADDED THIS LINE
           
