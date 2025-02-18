@@ -1,5 +1,6 @@
 import azure.functions as func
 import logging
+import azure.cosmos
 from azure.cosmos import CosmosClient
 
 
