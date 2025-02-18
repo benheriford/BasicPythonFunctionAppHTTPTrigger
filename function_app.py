@@ -1,6 +1,7 @@
 import azure.functions as func
 import logging
-import azure.cosmos
+import time
+time.sleep(5)
 from azure.cosmos import CosmosClient
 
 
