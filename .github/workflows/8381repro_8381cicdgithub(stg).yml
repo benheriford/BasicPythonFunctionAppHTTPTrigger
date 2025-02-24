@@ -77,7 +77,7 @@ jobs:
         uses: Azure/functions-action@v1
         id: deploy-to-function
         with:
-          app-name: '8381cicdgithub(stg)'
+          app-name: '8381cicdgithub'
           slot-name: 'stg'
           package: ${{ env.AZURE_FUNCTIONAPP_PACKAGE_PATH }}
           
